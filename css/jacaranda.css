@@ -91,7 +91,8 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-.current { text-decoration: underline; }
+.current { font-weight: bold; text-decoration: none; }
+#season-boolean { color: #8318b1; }
 .container {
     margin-bottom: 3em;
     display: block;
