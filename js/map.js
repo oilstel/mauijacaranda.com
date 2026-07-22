@@ -156,7 +156,7 @@ function setMarkers(map) {
       .setHTML(
         '<a class="tree-popup" href="' + mapsUrl + '" target="_blank" rel="noopener">' +
           '<img src="images/tree.svg" alt="" />' +
-          '<span>Take me there</span>' +
+          '<span>Take me to this tree</span>' +
         '</a>'
       );
 
