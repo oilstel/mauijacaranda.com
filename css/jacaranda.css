@@ -89,10 +89,9 @@ nav a {
     margin-bottom: 15px;
 }
 nav a:hover {
-    /* text-decoration: underline; */
-    color: #000;
+    text-decoration: underline;
 }
-.current { color: #000; }
+.current { text-decoration: underline; }
 .container {
     margin-bottom: 3em;
     display: block;
@@ -146,8 +145,22 @@ hr {
 }
 
 
+.gallery-img {
+    width: 260px;
+    float: left;
+    margin: 0 15px 10px 0;
+    border: 1px solid #8318b1;
+    padding: 8px;
+    background: #fff;
+}
+
 @media (max-width: 700px) {
     h2 {
         font-size: 60px;
+    }
+    .gallery-img {
+        float: none;
+        width: 100%;
+        margin: 0 0 15px 0;
     }
 }

@@ -5,6 +5,7 @@
       <meta name="description" content="A map of all the Jacaranda trees in Upcountry Maui.">
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
       <link href="css/jacaranda.css" rel="stylesheet">
+      <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
       <link href="css/map.css" rel="stylesheet">
       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
       <meta name="twitter:card" content="summary_large_image">
@@ -19,6 +20,7 @@
       <meta property="og:locale" content="en_US"/>
       <meta property="og:url" content="https://mauijacaranda.com"/>
       <script src="js/jacaranda.js"></script>
+      <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
       <script src="js/map.js"></script>
       
       <!-- <style>
@@ -63,9 +65,9 @@
     
             <div class="container">
                 <nav>
-                    <a href="/season">Season</a>
-                    <a href="/map" class="current">Map</a>
-                    <a href="/places">Places</a>
+                    <a href="season.html">Season</a>
+                    <a href="map.html" class="current">Map</a>
+                    <a href="guide.html">Guide</a>
                 </nav>
     
                 <div class="clear"></div>
@@ -74,7 +76,6 @@
 
         <div id="map"></div>
 
-      
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHEnfZ-71rLV6lmjbst9jjVMxxa_eXBZo&callback=initMap" async defer></script>
+        <script>initMap();</script>
     </body>
 </html>
